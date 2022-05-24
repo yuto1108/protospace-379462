@@ -13,7 +13,7 @@ class PrototypesController < ApplicationController
     if @prototype.save
       redirect_to action: :index
     else
-      render :neww
+      render :new
     end
   end
 
